@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # username.sh - Check if a username meets the specified rules
 
 echo "=============================================="
@@ -20,4 +20,5 @@ while true; do
         echo "(Remember: lowercase letters, digits, underscore; starts with a letter; 3–12 chars total.)"
     fi
 done
+
 
