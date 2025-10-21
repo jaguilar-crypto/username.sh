@@ -9,7 +9,7 @@ echo "3) Must be between 3 and 12 characters long."
 echo "=============================================="
 
 while true; do
-    # Prompt user to type a username
+    
     read -p "Enter a potential username: " username
 
     if [[ $username =~ ^[a-z][a-z0-9_]{2,11}$ ]]; then
@@ -20,3 +20,4 @@ while true; do
         echo "(Remember: lowercase letters, digits, underscore; starts with a letter; 3–12 chars total.)"
     fi
 done
+
