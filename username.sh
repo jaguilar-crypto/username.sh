@@ -10,7 +10,7 @@ echo "=============================================="
 
 while true; do
     # Prompt user to type a username
-    read -p "Enter a potential username: " username
+    read -r -p "Enter a potential username: " username
 
     if [[ $username =~ ^[a-z][a-z0-9_]{2,11}$ ]]; then
         echo "Thank you! '$username' is a valid username."
