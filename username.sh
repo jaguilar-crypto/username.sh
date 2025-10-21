@@ -1,5 +1,5 @@
 #!/bin/bash
-# username.sh - Check if a username meets the specified rules
+# bash username.sh - Check if a username meets the specified rules
 
 echo "=============================================="
 echo "USERNAME RULES:"
